@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(67, 170, 211);
+    background-image: url("BL.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.title{ 
+    /*font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;*/
+    height:100px;
+    max-width: 1500px;
+    text-align: center;
+    background-color:goldenrod;
+}
+.blurb{
+    width: 510px;
+    height:120px;
+    text-align: justify;
+    color: honeydew;
+    /*border-style: dashed;
+    border-width: 5px;
+    border-color: black;*/
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{ 
+    float: left;
+}
+li a{ 
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111;
+}
+/*
+img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1024px){
+    img.bg {
+    left: 50%;
+    margin-left: -512px; }
+}*/
+.HomeContent{
+    margin-right: 700px;
+    color: honeydew;
+}
+a{
+    color:darkkhaki;
+    text-decoration: none;
+}
+a:hover{
+    color: #52a8ff;
+}
+input[type=text] {
+    width: 100px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+  }
+input[type=text]:focus {
+    width: 250px;
+  }
+  .bb{
+    background-color: rgb(67, 170, 211);
+    background-image: url("bloodborne.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: left top;
+}

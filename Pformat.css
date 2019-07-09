@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(67, 170, 211);
+    background-image: url("bloodborne.jpg");
+    max-height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}

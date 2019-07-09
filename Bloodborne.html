@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="Pformat.css">
+<head>
+    <body>       
+        <button type="button" onclick="Loadout()" style="color:honeydew; background-color: black;">Generate Challenge</button>
+        <p id="quote" style="color: honeydew;"> Bloodborne Loadout</p>
+        <script>
+            function Loadout(){
+                var myArray = ['No R1', 'No Heals','No items','No lock on',
+                'No Running','No bullets','No Running Attacks','No Transformations','ALL CURSED BLOODGEMS'];
+                var Arrayz = ['Saw Cleaver', 'Bloodletter','Burial blade','Amygdalan Arm',
+                'Churck Pick','Beast Claw','Zabimaru','ICHIDAI SANZEN DAISEN SEKAI','BoomHammer','Hunter Axe'];
+
+                var rand = myArray[Math.floor(Math.random() * myArray.length)];
+                var randnum = Arrayz[Math.floor(Math.random() * Arrayz.length)];
+                var load = rand +" with the "+ randnum;
+                document.getElementById('quote').innerHTML = load;
+                }
+        </script>
+    </body>
+</head>
